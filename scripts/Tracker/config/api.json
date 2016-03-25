@@ -1,0 +1,32 @@
+{
+	"ongkir.info": {
+		"endpoint": "http://api.ongkir.info", 
+		"do": {
+			"listCity": {
+				"method": "post",
+				"uri": "/city/list",
+				"body": {
+					"API-Key": "required",
+					"courier": "required",
+					"query": "required",
+					"type": "required",
+					"format": "required"
+				}
+			}
+
+		}
+	},
+	"aftership.com": {
+		"endpoint": "http://track.aftership.com",
+		"do": {
+			"tracking": {
+				"method": "get",
+				"uri": "/",
+				"param": {
+					"courier": "required",
+					"number": "required"
+				}
+			}
+		}
+	}
+}

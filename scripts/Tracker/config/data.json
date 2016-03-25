@@ -1,0 +1,10 @@
+{
+	"do": [
+		"tracking"
+	],
+	"expedition": {
+		"jne": {
+			"tracking": "aftership.com"
+		}
+	}
+}
